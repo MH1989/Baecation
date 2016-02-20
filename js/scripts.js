@@ -10,15 +10,15 @@ $(document).ready(function() {
     var className = "." + weatherVal + "." + vibeVal + "." + terrainVal;
 
     if ( personaVal === "good" ) {
-      $("p.persona").append("<br><strong>You'll find much support on your path to heroism!</strong>");
+      $("p.persona").append("<br><strong>You'll find much support on your vacation path to heroism!</strong>");
     } else if ( distanceVal === "notgood" ){
       $("p.persona").append("<br><strong>The life of a villan is a lonely one...</strong>");
     }
 
     if ( actionVal === "destroy" ) {
-      $("#red").toggle();
+      $("#fire").toggle();
     } else if ( factionVal === "build" ) {
-      $("#green").toggle();
+      $("#water").toggle();
     }
 
     $("#first").toggle();
