@@ -9,11 +9,16 @@ Clone this repository.
 Open Web Broswer and follow "Link" below.
 
 Includes:
-TBD
+- all previous standards (last review's objectives) are in place
+- site uses branching to return destination
+- jQuery is used to show and hide destination after questions are answered and submitted
+- form gathers input from the user
+- variable names are descriptive of what they represent
+- web page is styled using Bootstrap and custom CSS
 
 ## Site Link
 
-TBD
+https://github.com/MH1989/Baecation
 
 ## Technology
 
