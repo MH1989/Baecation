@@ -1,4 +1,4 @@
-# Project Name: Vacation Suggester
+# Project Name: Dragon Ball Z Vacation
 
 Description: A website where a user can go to answer a few questions about themselves and the site will return a vacation destination to them basesd on their answers.
 
@@ -31,6 +31,7 @@ TBD
 - Twitter Bootstrap
 
 - JavaScript & jQuery
+    - variables, methods, functions, DOM manipulation and traversal, forms, branching, arrays, and looping
 
 ## Author Name: Mulu Habtemariam
 
