@@ -1,23 +1,21 @@
 $(document).ready(function() {
   $("form#questions").submit(function() {
-    var weatherVal = $("select#weather").val();
-    var vibeVal = $("select#vibe").val();
-    var terrainVal = $("select#terrain").val();
+    var questions = ["weather", "vibe", "terrain", "persona", "action"];
 
-    var personaVal = $("select#persona").val();
-    var actionVal = $("select#action").val();
-
-    var className = "." + weatherVal + "." + vibeVal + "." + terrainVal;
+    questions.forEach(function(question) {
+      var userInput = $("input#" + blank).val();
+      $("." + blank).text(userInput);
+    });
 
     if ( personaVal === "good" ) {
       $("p.persona").append("<br><strong>You'll find much support on your vacation path to heroism!</strong>");
-    } else if ( distanceVal === "notgood" ){
+    } else if ( personaVal === "notgood" ){
       $("p.persona").append("<br><strong>The life of a villan is a lonely one...</strong>");
     }
 
     if ( actionVal === "destroy" ) {
       $("#fire").toggle();
-    } else if ( factionVal === "build" ) {
+    } else if ( actionVal === "build" ) {
       $("#water").toggle();
     }
 
