@@ -1,12 +1,12 @@
 # Project Name: Dragon Ball Z Vacation
 
-Description: A website where a user can go to answer a few questions about themselves and the site will return a vacation destination to them basesd on their answers.
+Description: A website where a user can go to answer a few questions about themselves and the site will return a vacation destination to them based on their answers.
 
 ## Setup Instructions
 
 Clone this repository.
 
-Open Web Broswer and follow "Link" below.
+Open Web Browser and follow "Link" below.
 
 Includes:
 - all previous standards (last review's objectives) are in place
@@ -36,7 +36,7 @@ https://github.com/MH1989/Baecation
 - Twitter Bootstrap
 
 - JavaScript & jQuery
-    - variables, methods, functions, DOM manipulation and traversal, forms, branching, arrays, and looping
+    - variables, methods, functions, DOM manipulation and traversal, forms, and branching
 
 ## Author Name: Mulu Habtemariam
 
