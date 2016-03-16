@@ -1,17 +1,44 @@
-select, button {
-  display: block;
+body {
+  background-color: black;
+  background: url('img/dbz1.png');
+  background-size: 2200px 1200px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 18px;
+  color: black;
+  padding-top: 80px;
 }
 
-#frieza, #gelbo, #imecka, #m2, #namek, #plant, #polaris, #rudeeze, #fire, #water {
-  display: none;
-  text-align: center;
-}
-
-.form-control {
-  width: 400px;
+.well {
+  background: rgba(10, 15, 20, 0.6);
+  border: 0px;
 }
 
 img {
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 100%;
+}
+
+.navbar {
+   background: rgba(10, 15, 20, 0.6);
+}
+
+.navbar .navbar-brand {
+  color: white;
+}
+
+label {
+  font-weight: normal;
+}
+
+.input {
+  float: right;
+  width: 500px;
+}
+
+#select {
+  float:right;
+}
+
+#result {
+  display: none;
 }
